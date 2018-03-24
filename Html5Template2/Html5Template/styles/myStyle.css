@@ -1,0 +1,107 @@
+body {
+    direction: rtl;
+    background: url(https://scontent.fsdv2-1.fna.fbcdn.net/v/t1.0-9/14355548_10204985914726790_6366670673700949842_n.jpg?oh=cfe3e371801d9d0aa6b2e3b5e0627166&oe=5B313F48) no-repeat right top;
+    background-size: 250px;
+    background-color: azure;
+}
+
+ol
+{
+    list-style: none;
+}
+
+h1, h2, h3, p, ol {
+    text-align: center;
+}
+
+h1 {
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+
+#i {
+    padding: 15px;
+    margin: 15px;
+}
+
+#i2 {
+    padding: 10px;
+    margin: 10px;
+}
+
+#i3 {
+    padding: 10px;
+    margin: 10px;
+}
+
+h2 {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20pt;
+}
+
+h3 {
+    padding: 10px;
+    margin: 10px;
+    color: darkviolet; 
+
+
+
+#cont a {
+    margin: 100px;
+}
+
+#mail {
+    margin: 100px;
+}
+
+#facebook {
+    margin: 100px;
+}
+
+<nav > #nav ul {
+    list-style: none;
+    width: 512px;
+    margin: 0 auto;
+}
+
+#nav ul li {
+    display: inline-block;
+    float: right;
+}
+
+    #nav ul li a {
+        display: block;
+        background-color: #2f2f33;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        width: 120px;
+        height: 30px;
+        Padding-top: 10px;
+    }
+
+
+
+        #nav ul li a:hover {
+            background-color: #3097D2;
+        }
+
+        #nav ul li a:active {
+            background-color: green;
+        }
+
+
+    #nav ul li ul {
+        display: none;
+        position: absolute;
+    }
+
+    #nav ul li:hover ul {
+        display: block;
+        width: 120px;
+    }
+}
